@@ -1,0 +1,8 @@
+{
+  "name": "get-metadata",
+  "version": "1.0.0",
+  "description": "GitHub Action to get the correct commit SHA",
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {}
+}

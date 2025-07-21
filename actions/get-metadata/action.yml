@@ -1,0 +1,11 @@
+name: Get Metadata
+description: Get the commit SHA from push, release, or workflow_dispatch events
+inputs: {}
+outputs:
+  commit_hash:
+    description: The resolved commit hash
+  version_tag:
+    description: The resolved version tag
+runs:
+  using: node20
+  main: index.js
